@@ -63,6 +63,7 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  position: relative;
 }
 
 .activity-card h4 {
@@ -141,4 +142,47 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #eef4fa;
+  border-radius: 4px;
+  border: 1px solid #dde6f3;
+}
+
+.participants-section strong {
+  color: #1a237e;
+}
+
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding-left: 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.participants-list.no-bullets {
+  list-style-type: none;
+}
+
+.delete-participant {
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.1em;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #ff1744;
+}
+
+.participants-section.no-participants {
+  background-color: #f9f9f9;
+  color: #888;
+  border: 1px dashed #ccc;
+  font-style: italic;
 }
